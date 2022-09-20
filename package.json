@@ -14,6 +14,8 @@
     "prettify": "prettier --write ./src"
   },
   "dependencies": {
+    "flowbite": "^1.5.3",
+    "flowbite-vue": "^0.0.5",
     "pinia": "^2.0.21",
     "vue": "^3.2.38",
     "vue-router": "^4.1.5"

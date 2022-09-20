@@ -14,10 +14,12 @@ import ComponentTest from './components/Component.vue'
       height="125"
     />
 
-    <div>
+    <div class="wrapper">
       <ComponentTest msg="Component!" />
 
-      <nav>
+      <h1 class="text-3xl font-bold underline text-primary">Test tailwind</h1>
+
+      <nav class="flex space-x-5">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
@@ -27,4 +29,8 @@ import ComponentTest from './components/Component.vue'
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped>
+.wrapper {
+  @apply flex flex-col items-center justify-center;
+}
+</style>

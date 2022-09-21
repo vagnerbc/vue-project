@@ -1,4 +1,4 @@
-import { rgba } from '../config/utils'
+import { rgba } from './utils'
 
 const standard = {
   black: '#000000',
